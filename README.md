@@ -11,3 +11,6 @@ build with kicad nightly Version: (5.99.0-10004-g132ec37b56), release build
 
 
 credits to evyd13 and ebastler for ideas 
+
+
+Oh and BTW... if your toaster blows up because you build this thing... its on you !
