@@ -14,3 +14,8 @@ credits to evyd13 and ebastler for ideas
 
 
 Oh and BTW... if your toaster blows up because you build this thing... its on you !
+
+
+![3d-VIEW](https://github.com/specs32/specs_keys/blob/main/gh80-3003-nicosmod/gh80-3003-nicosmod.png)
+
+![PCB](https://github.com/specs32/specs_keys/blob/main/gh80-3003-nicosmod/pcb.png) 
