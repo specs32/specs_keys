@@ -13,7 +13,7 @@ So, except the pcb and the mcu and a couple smd parts this thing is completly sa
 Features  :
   - ATMega 32U4 @ 8 MHz (why the crystal ... such a waste, sigh)
   - USB-C jack **with FUSE and full ESD protection** (gnd vcc d+ d-)
-  - bottom backlighting pads for 14 LEDs with resistors plus 2 extra 2mm connectors for lantern style lightning
+  - MOSFET controlled bottom backlighting pads for 14 LEDs with resistors plus 2 extra 2mm connectors for lantern style lightning
   - Scroll and caps indicators (active low atm.. I kinda like it)
   - SPI interface and reset
   - 340mA overall power consumption with full lights
@@ -30,7 +30,7 @@ I hex the MCU with avrdude from cli after QMK compile, somehow I had trouble wit
 designed with kicad nightly Version: (5.99.0-10004-g132ec37b56), release build
 and some gimp
 
-credits to evyd13 and ebastler for initial ideas.
+credits to evyd13 , evil80 and ebastler for initial ideas.
 
 License : CC-BY-NC-SA
 
