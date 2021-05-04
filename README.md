@@ -26,6 +26,7 @@ the QMK layout and config can be found here :  https://github.com/specs32/specs_
 I hex the MCU with avrdude from commandline after QMK compile, somehow I had trouble with bootloaders all my life ^^ (also safer this way ;))
 
 > qmk_firmware [master]× » avrdude -c usbasp -p m32u4 -B10 -U lfuse:w:0xD2:m -U hfuse:w:0x98:m -U efuse:w:0xFF:m
+
 > qmk_firmware [master]× » avrdude -c usbasp -pm32u4 -B10 -Uflash:w:.build/specskeys_default.hex                
 
 build with kicad nightly Version: (5.99.0-10004-g132ec37b56), release build
