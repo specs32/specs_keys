@@ -13,7 +13,7 @@ So, except the pcb and the mcu and a couple smd parts this thing is completly sa
 Features  :
   - ATMega 32U4 @ 8 MHz (why the crystal ... such a waste, sigh)
   - USB-C jack **with FUSE and full ESD protection** (gnd vcc d+ d-)
-  - bottom backlighting pads for 10 LEDs with resistors (don't ocd on the spacing.. I know ! .. did you ever design a PCB and forgot to check something ?)
+  - bottom backlighting pads for 14 LEDs with resistors plus 2 extra 2mm connectors for lantern style lightning
   - Scroll and caps indicators (active low atm.. I kinda like it)
   - SPI interface and reset
   - 340mA overall power consumption with full lights
@@ -21,13 +21,14 @@ Features  :
 
 the QMK layout and config can be found here :  https://github.com/specs32/specs_keys/tree/main/specskeys
 
-I hex the MCU with avrdude from commandline after QMK compile, somehow I had trouble with bootloaders all my life ^^ (also safer this way ;))
+I hex the MCU with avrdude from cli after QMK compile, somehow I had trouble with bootloaders all my life ^^ (also safer this way .. I guess;))
 
 > qmk_firmware [master]× » avrdude -c usbasp -p m32u4 -B10 -U lfuse:w:0xD2:m -U hfuse:w:0x98:m -U efuse:w:0xFF:m
 
 > qmk_firmware [master]× » avrdude -c usbasp -pm32u4 -B10 -Uflash:w:.build/specskeys_default.hex                
 
-build with kicad nightly Version: (5.99.0-10004-g132ec37b56), release build
+designed with kicad nightly Version: (5.99.0-10004-g132ec37b56), release build
+and some gimp
 
 credits to evyd13 and ebastler for initial ideas.
 
