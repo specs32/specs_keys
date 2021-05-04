@@ -8,7 +8,12 @@ The base plate is the acryl plate from an old TFT Monitor cut to size and sanded
 Between PCB and baseplate is some foamy stuff for dampening.
 
 
-So, except the pcb and the mcu and a couple smd parts this thing is completly salvaged from trash (45 € where 40€ were the PCBs, still have 3 if you want one)
+So, except the pcb and the mcu and a couple smd parts this thing is completly salvaged from trash.
+
+Overall cost per board with parts (except switches) : 18 €
+
+(8 € per PCB and 10 € for SMD parts, rest is salvaged, so this is probably the cheapest build out there)
+
 
 Features  :
   - ATMega 32U4 @ 8 MHz (why the crystal ... such a waste, sigh)
