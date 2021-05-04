@@ -6,11 +6,12 @@
 
 It runs : QMK firmware 
 It has  :
-  -ATMega 32U4 @ 8 MHz (why the crystal ... such a waste, sigh)
-  -USB-C jack with full ESD protection (gnd vcc d+ d-)
-  -bottom backlighting
-  -Scroll and caps indicators (active low atm.. I like it)
-  -SPI interface and reset
+  - ATMega 32U4 @ 8 MHz (why the crystal ... such a waste, sigh)
+  - USB-C jack with FUSE and full ESD protection (gnd vcc d+ d-)
+  - bottom backlighting
+  - Scroll and caps indicators (active low atm.. I like it)
+  - SPI interface and reset
+  - 340mA power consumption with full lights
 
 the QMK layout and config can be found here :  https://github.com/specs32/specs_keys/tree/main/specskeys
 
