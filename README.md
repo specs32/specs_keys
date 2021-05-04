@@ -19,3 +19,7 @@ Oh and BTW... if your toaster blows up because you build this thing... its on yo
 ![3d-VIEW](https://github.com/specs32/specs_keys/blob/main/gh80-3003-nicosmod/gh80-3003-nicosmod.png)
 
 ![PCB](https://github.com/specs32/specs_keys/blob/main/gh80-3003-nicosmod/pcb.png) 
+
+![FOTO1](https://github.com/specs32/specs_keys/blob/main/photo_2021-05-04_18-33-33.jpg)
+
+![FOTO2](https://github.com/specs32/specs_keys/blob/main/photo_2021-05-04_18-33-43.jpg)
