@@ -9,7 +9,8 @@
 The base plate is the acryl plate from an old TFT Monitor cut to size and sanded. (roughly)
 Between PCB and baseplate is some foamy stuff for dampening.
 
-so, except the pcb and the mcu and a couple smd parts this thing is completly salvaged from trash (45 € where 40€ were the PCBs, still have 3 if you want one)
+
+So, except the pcb and the mcu and a couple smd parts this thing is completly salvaged from trash (45 € where 40€ were the PCBs, still have 3 if you want one)
 
 Features  :
   - ATMega 32U4 @ 8 MHz (why the crystal ... such a waste, sigh)
@@ -23,6 +24,9 @@ Features  :
 the QMK layout and config can be found here :  https://github.com/specs32/specs_keys/tree/main/specskeys
 
 I hex the MCU with avrdude from commandline after QMK compile, somehow I had trouble with bootloaders all my life ^^ (also safer this way ;))
+
+> qmk_firmware [master]× » avrdude -c usbasp -p m32u4 -B10 -U lfuse:w:0xD2:m -U hfuse:w:0x98:m -U efuse:w:0xFF:m
+> qmk_firmware [master]× » avrdude -c usbasp -pm32u4 -B10 -Uflash:w:.build/specskeys_default.hex                
 
 build with kicad nightly Version: (5.99.0-10004-g132ec37b56), release build
 
