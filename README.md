@@ -30,7 +30,10 @@ I hex the MCU with avrdude from cli after QMK compile, somehow I had trouble wit
 designed with kicad nightly Version: (5.99.0-10004-g132ec37b56), release build
 and some gimp
 
-credits to evyd13 , evil80 and ebastler for initial ideas.
+credits :
+
+- evyd13 and ebastler (to modify the g80-3003 design was my initial attempt but I did build the PCB from scratch then)
+- the designers of evil80 (whoever that might be, couldn't find any infos on that) I used some of their qmk layout information as info for mine
 
 License : CC-BY-NC-SA
 
