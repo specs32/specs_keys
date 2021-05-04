@@ -16,7 +16,7 @@ Features  :
   - MOSFET controlled bottom backlighting pads for 14 LEDs with resistors plus 2 extra 2mm connectors for lantern style lightning
   - Scroll and caps indicators (active low atm.. I kinda like it)
   - SPI interface and reset
-  - 340mA overall power consumption with full lights
+  - 340mA overall power consumption with full lights (I put in UV / pink LEDs and 14 Ω Resistors)
 
 
 the QMK layout and config can be found here :  https://github.com/specs32/specs_keys/tree/main/specskeys
