@@ -4,7 +4,8 @@
 
 20 Years ago I found 2 g80-3000 HAD Keyboards in the trash, one broke lately so I designed a PCB to mount these sweet sweet Cherry MX black switches on it.
 
-It runs : QMK firmware 
+It runs : QMK firmware
+
 It has  :
   - ATMega 32U4 @ 8 MHz (why the crystal ... such a waste, sigh)
   - USB-C jack with FUSE and full ESD protection (gnd vcc d+ d-)
