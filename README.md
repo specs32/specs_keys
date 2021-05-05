@@ -2,7 +2,7 @@
 
 ### TKL ISO keyboard based on an g80-3000HAD running QMK
 
-20 Years ago I found 2 g80-3000 HAD Keyboards in the trash, one broke lately so I designed a PCB to mount these sweet sweet Cherry MX black switches on it.
+15 Years ago I found 2 g80-3000 HAD Keyboards in the trash, one broke lately so I designed a PCB to mount these sweet sweet Cherry MX black switches on it.
 
 The base plate is the acryl plate from an old TFT Monitor cut to size and sanded. (roughly)
 Between PCB and baseplate is some foamy stuff for dampening.
