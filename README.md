@@ -41,6 +41,7 @@ credits :
 - the designers of evil80 (whoever that might be, couldn't find any infos on that) I used some of their qmk layout information as info for mine
 
 License on the KiCAD Design files : ♥ CC-BY-SA-4.0
+
 All other parts of this build inherit their Licenses from their origin.
 
 ![3d-VIEW](https://github.com/specs32/specs_keys/blob/main/gh80-3003-nicosmod/gh80-3003-nicosmod.png)
